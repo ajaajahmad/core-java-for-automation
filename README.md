@@ -38,32 +38,32 @@ See how Java powers your automation framework:
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
-│                    AUTOMATION FRAMEWORK                          │
+│                    AUTOMATION FRAMEWORK                         │
 ├─────────────────────────────────────────────────────────────────┤
-│                                                                  │
-│  📦 Polymorphism                                                 │
+│                                                                 │
+│  📦 Polymorphism                                                │
 │     WebDriver driver = new ChromeDriver();  ← Interface-based   │
-│                                                                  │
-│  🔐 Encapsulation                                                │
+│                                                                 │
+│  🔐 Encapsulation                                               │
 │     private WebElement loginBtn;           ← Page Object Model  │
-│     public void clickLogin() {...}                               │
-│                                                                  │
-│  🧬 Inheritance                                                  │
+│     public void clickLogin() {...}                              │
+│                                                                 │
+│  🧬 Inheritance                                                 │
 │     BaseTest ← LoginTest ← CheckoutTest    ← Reusable setup     │
-│                                                                  │
-│  📚 Collections                                                  │
+│                                                                 │
+│  📚 Collections                                                 │
 │     List<WebElement> links = driver.findElements(...);          │
 │     Map<String, String> testData = readExcel();                 │
-│                                                                  │
+│                                                                 │
 │  ⚠️ Exception Handling                                          │
-│     try { element.click(); }                                     │
+│     try { element.click(); }                                    │
 │     catch (StaleElementReferenceException e) {...}              │
-│                                                                  │
+│                                                                 │
 │  🌊 Streams (Java 8+)                                           │
-│     driver.findElements(By.tagName("a"))                         │
+│     driver.findElements(By.tagName("a"))                        │
 │           .stream().filter(e -> e.isDisplayed())                │
 │           .forEach(e -> System.out.println(e.getText()));       │
-│                                                                  │
+│                                                                 │
 └─────────────────────────────────────────────────────────────────┘
 ```
 
