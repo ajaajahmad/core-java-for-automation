@@ -1,19 +1,13 @@
-# Compiled class file
+# ========================
+# Java Compiled Files
+# ========================
 *.class
-*.classpath
-.classpath
-.project
-
-# Log file
+*.ctxt
 *.log
 
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
+# ========================
+# Package Files
+# ========================
 *.jar
 *.war
 *.nar
@@ -22,6 +16,149 @@
 *.tar.gz
 *.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+# ========================
+# JVM Crash Logs
+# ========================
 hs_err_pid*
 replay_pid*
+
+# ========================
+# Maven Specific
+# ========================
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# ========================
+# IDE - IntelliJ IDEA
+# ========================
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+.idea_modules/
+
+# ========================
+# IDE - Eclipse
+# ========================
+.classpath
+.project
+.settings/
+*.classpath
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.loadpath
+.recommenders
+.metadata
+
+# ========================
+# IDE - VSCode
+# ========================
+.vscode/
+*.code-workspace
+
+# ========================
+# IDE - NetBeans
+# ========================
+nbproject/private/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# ========================
+# Mobile Tools for Java (J2ME)
+# ========================
+.mtj.tmp/
+
+# ========================
+# Test Output & Reports
+# ========================
+test-output/
+reports/
+screenshots/
+*.log
+allure-results/
+allure-report/
+surefire-reports/
+failsafe-reports/
+
+# ========================
+# Selenium & Automation
+# ========================
+chromedriver
+geckodriver
+msedgedriver
+IEDriverServer.exe
+*.exe
+drivers/
+
+# ========================
+# OS Specific
+# ========================
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+*~
+.directory
+.Trash-*
+
+# ========================
+# Logs & Temporary Files
+# ========================
+*.log
+logs/
+temp/
+tmp/
+*.tmp
+*.temp
+
+# ========================
+# Configuration Files (Optional)
+# ========================
+# Uncomment if you want to ignore config files with sensitive data
+# config.properties
+# application.properties
+# testdata.xlsx
+# credentials.json
+
+# ========================
+# Build Tools
+# ========================
+.gradle/
+build/
+.gradletasknamecache
+
+# ========================
+# Other
+# ========================
+*.swp
+*.swo
+*~
+.project
+.settings
+.springBeans
+.factorypath
