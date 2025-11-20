@@ -397,7 +397,7 @@ git --version
 ### Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/core-java-for-automation.git
+git clone https://github.com/ajaajahmad/core-java-for-automation.git
 cd core-java-for-automation
 ```
 
