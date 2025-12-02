@@ -4,10 +4,12 @@ public class IfElseStatement {
 
 	public static void main(String[] args) {
 
-		if (condition) {
-			// code when condition is true
+		int marks = 40;
+
+		if (marks >= 30) {
+			System.out.println("Pass");
 		} else {
-			// code when condition is false
+			System.out.println("Fail");
 		}
 	}
 
