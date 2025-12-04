@@ -6,7 +6,7 @@ public class ThisKeyword {
 
 	ThisKeyword(int id) {
 
-		id = id;
+		this.id = id;
 	}
 
 	public static void main(String[] args) {
