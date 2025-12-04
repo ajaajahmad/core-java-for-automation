@@ -10,8 +10,7 @@ public class ThisKeyword {
 	}
 
 	public static void main(String[] args) {
-		
-		
+
 		ThisKeyword tk = new ThisKeyword(10);
 		System.out.println(tk.id);
 	}
