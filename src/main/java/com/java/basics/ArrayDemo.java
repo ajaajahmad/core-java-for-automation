@@ -13,7 +13,7 @@ public class ArrayDemo {
 		arr2[2] = 30;
 		arr2[3] = 40;
 		
-		for (int i = 0; i <= arr.length; i++) {
+		for (int i = 0; i < arr.length; i++) {
 			System.out.println(i);
 		}
 		
