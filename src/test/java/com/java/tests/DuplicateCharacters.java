@@ -2,7 +2,7 @@ package com.java.tests;
 
 import java.util.HashMap;
 
-public class CountCharacters {
+public class DuplicateCharacters {
 
 	public static void main(String[] args) {
 
@@ -17,13 +17,15 @@ public class CountCharacters {
 			} else {
 				map.put(ch, 1);
 			}
-
 		}
+
+		System.out.println("Duplicate characters are:");
 
 		for (Character key : map.keySet()) {
-			System.out.println(key + "=" + map.get(key));
+			if (map.get(key) > 1) {
+				System.out.println(key);
+			}
 		}
-
 	}
 
 }
