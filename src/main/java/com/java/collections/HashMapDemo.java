@@ -1,4 +1,4 @@
-package com.java.basics;
+package com.java.collections;
 
 import java.util.HashMap;
 

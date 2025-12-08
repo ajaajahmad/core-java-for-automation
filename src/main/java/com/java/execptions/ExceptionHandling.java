@@ -1,4 +1,4 @@
-package com.java.basics;
+package com.java.execptions;
 
 public class ExceptionHandling {
 
