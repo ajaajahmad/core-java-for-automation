@@ -15,22 +15,11 @@ public class StringConstantPoolRule {
 
 		System.out.println(s3.equals(s4));
 
-		int x = 10;
-		System.out.println(x++);
-		System.out.println(x);
-
-		int y = 10;
-		System.out.println(++y);
-
-		int a = 5;
-		System.out.println(a++ + ++a);
-
-		int b = 3;
-		b = b++ + b++;
-		System.out.println(b);
-
-		int c = 5;
-		System.out.println(++c + ++c);
+		String as = "Test";
+		String bs = new String("Test");
+		
+		System.out.println(as == bs);
+		System.out.println(as.equals(bs));
 
 	}
 
