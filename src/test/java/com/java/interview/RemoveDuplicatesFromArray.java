@@ -1,7 +1,6 @@
 package com.java.interview;
 
 import java.util.HashSet;
-import java.util.Iterator;
 
 public class RemoveDuplicatesFromArray {
 
