@@ -19,7 +19,7 @@ public class ReverseLastString {
 		// 4. Combine them: [Reversed Word] + [Space] + [Rest of String]
 		String result = reversedLastWord + " " + restOfString;
 
-		System.out.println("Original: " + str);
+		//System.out.println("Original: " + str);
 		System.out.println("Result:   " + result);
 	}
 }
