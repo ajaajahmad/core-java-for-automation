@@ -2,7 +2,7 @@ package com.java.practices;
 
 public class ReverseString {
 	public static void main(String[] args) {
-		String str = "ajaaj ahmad from mumbai";
+		String str = "test automation engineer";
 		String reversed = "";
 
 		// Start from the last index and move to 0
