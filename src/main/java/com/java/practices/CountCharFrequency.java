@@ -9,13 +9,14 @@ public class CountCharFrequency {
 
 		for (int i = 0; i < str.length(); i++) {
 			char ch = str.charAt(i);
-			if()
-			count[ch]++;
+			if (ch != ' ') {
+				count[ch]++;
+			}
 		}
 
 		for (int i = 0; i < str.length(); i++) {
 			char ch = str.charAt(i);
-			if (count[ch] > 0) {
+			if (ch != ' ' && count[ch] > 0) {
 				System.out.println("'" + ch + " :" + count[ch]);
 				count[ch] = 0;
 			}
